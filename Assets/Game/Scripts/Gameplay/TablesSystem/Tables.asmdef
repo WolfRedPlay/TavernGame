@@ -1,0 +1,19 @@
+{
+    "name": "TablesSystem",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b66143326f48e5147a7fd39753d85fee",
+        "GUID:518333f557b9a6049845ead58c091759",
+        "GUID:ab7974588f2ee3a4d99a22408cff4f0f",
+        "GUID:9d2e4a3b9a26dbe49b354729ca2e3997"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

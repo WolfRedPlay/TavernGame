@@ -1,0 +1,17 @@
+{
+    "name": "Shop_UI",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b66143326f48e5147a7fd39753d85fee",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

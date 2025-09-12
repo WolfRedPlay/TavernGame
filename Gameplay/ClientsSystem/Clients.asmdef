@@ -1,0 +1,20 @@
+{
+    "name": "ClientsSystem",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b66143326f48e5147a7fd39753d85fee",
+        "GUID:518333f557b9a6049845ead58c091759",
+        "GUID:a5e5c79af1c7f4648b3475c7cd4ef28a",
+        "GUID:5f473afab50feae4985f2a8e5ba4ec3c",
+        "GUID:ab7974588f2ee3a4d99a22408cff4f0f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

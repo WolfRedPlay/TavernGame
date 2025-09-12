@@ -1,0 +1,19 @@
+{
+    "name": "Orders",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b66143326f48e5147a7fd39753d85fee",
+        "GUID:821bc34fe5185d540b30a439c560c44e",
+        "GUID:a08739ad401f3a14c827b2f402102e44",
+        "GUID:ab7974588f2ee3a4d99a22408cff4f0f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

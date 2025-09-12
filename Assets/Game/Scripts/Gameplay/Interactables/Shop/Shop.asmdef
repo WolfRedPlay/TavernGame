@@ -1,0 +1,19 @@
+{
+    "name": "Shop",
+    "rootNamespace": "",
+    "references": [
+        "GUID:518333f557b9a6049845ead58c091759",
+        "GUID:b66143326f48e5147a7fd39753d85fee",
+        "GUID:821bc34fe5185d540b30a439c560c44e",
+        "GUID:b5a8575c7d441194c91f829508a4f4f2"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

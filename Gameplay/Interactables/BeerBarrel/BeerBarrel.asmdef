@@ -1,0 +1,20 @@
+{
+    "name": "BeerBarrel",
+    "rootNamespace": "",
+    "references": [
+        "GUID:ab7974588f2ee3a4d99a22408cff4f0f",
+        "GUID:518333f557b9a6049845ead58c091759",
+        "GUID:b66143326f48e5147a7fd39753d85fee",
+        "GUID:9d2e4a3b9a26dbe49b354729ca2e3997",
+        "GUID:233525b8a89c07044868972e2cefb3b4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

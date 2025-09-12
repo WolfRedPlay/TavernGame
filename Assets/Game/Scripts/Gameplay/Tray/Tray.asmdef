@@ -1,0 +1,18 @@
+{
+    "name": "Tray",
+    "rootNamespace": "",
+    "references": [
+        "GUID:ab7974588f2ee3a4d99a22408cff4f0f",
+        "GUID:b66143326f48e5147a7fd39753d85fee",
+        "GUID:97af44f68fb0f094786b0fb7456c6da7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

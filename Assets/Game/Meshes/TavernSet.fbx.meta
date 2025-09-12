@@ -1,0 +1,384 @@
+fileFormatVersion: 2
+guid: 898a0db9748b2834abf3d1d41679d74c
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BarChair_Base
+    second: {fileID: 2100000, guid: 2fd5dc36cca405d48abc1c22ae33cf9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BarChair_Metal
+    second: {fileID: 2100000, guid: 6e23e428a4f6aae41a386cc035548a2f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BarDoor_Metal
+    second: {fileID: 2100000, guid: b3776eb32a3e84d46bee0da8ad2831a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BarDoor_Wood
+    second: {fileID: 2100000, guid: 53df0f51cc95c724b91f2caabfc72bb1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bar_Left_Wood
+    second: {fileID: 2100000, guid: 4bce15c37c959cb488a1a978391b6c89, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bar_Middle_Wood
+    second: {fileID: 2100000, guid: 9ac849eb6bea7f64c932c62879138cd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Bar_Right_Wood
+    second: {fileID: 2100000, guid: 9d546eb592b545743b02911d7840fe5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrel_Metal
+    second: {fileID: 2100000, guid: 926f9b8f97a6b824983d4afd449e1dc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Barrel_Wood
+    second: {fileID: 2100000, guid: e6e749ac576d0d94191c9b207cb3aed5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BeerBarrel_Metal
+    second: {fileID: 2100000, guid: 86899d2ba7b4e2244b0d16240a0b3af0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BeerBarrel_Wood
+    second: {fileID: 2100000, guid: 5ad054a913daf3440bce911673155665, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BeerMug_Metal
+    second: {fileID: 2100000, guid: 7a85a37da44759e4e88fc08bda193aec, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BeerMug_Wood
+    second: {fileID: 2100000, guid: f974dd0a4ca02f9419e5df272df038a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Book_Base
+    second: {fileID: 2100000, guid: 61ebf56513fc7ef45bd24942d17d318f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Book_Metal
+    second: {fileID: 2100000, guid: 6caf7c16b6c4488438b798236422c55c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Book_Text
+    second: {fileID: 2100000, guid: b970533a38ed28f43bb505c342f1771a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Candle_Metal
+    second: {fileID: 2100000, guid: e625df3d6ee56d44caf08e6a7b30830f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Candle_Wax
+    second: {fileID: 2100000, guid: b1c9403701bfd364fb340c121a4b9547, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Candle_Wick
+    second: {fileID: 2100000, guid: 554f64d05931bd94f9704a7b5b8c3f0a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chair_Wood
+    second: {fileID: 2100000, guid: 246ada08dfd2e1240b8d27021efb9258, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cheese
+    second: {fileID: 2100000, guid: 5b55dec594dec784ea011aa3d0f3b2aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Column_2Holders_Wood
+    second: {fileID: 2100000, guid: b09623cc3f46dfc4da11dd06bc373276, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Column_Big_Wood
+    second: {fileID: 2100000, guid: d42fe0531b4d38744a5df7518080dde9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Column_Holder_Wood
+    second: {fileID: 2100000, guid: c3402cc28d06b624d8fce3796207a754, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Column_Medium_Wood
+    second: {fileID: 2100000, guid: c4bd6e1dcb9d53f4aaa72a04ae4aaef9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Column_Small_Wood
+    second: {fileID: 2100000, guid: 7262a7193499f8745a9b32e831bf7e4a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_DoorHole_Left_Metal
+    second: {fileID: 2100000, guid: b6f6744a6e38fee47a8f86613a40c68b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_DoorHole_Left_Wood
+    second: {fileID: 2100000, guid: 24f9144467aca9148b683425f0405271, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_DoorHole_Middle_Wood
+    second: {fileID: 2100000, guid: ba6ec3a58deb22d4f8f16e9dd762593a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_DoorHole_Right_2_Metal
+    second: {fileID: 2100000, guid: a60b89ba21c13924299751bbfc3a918f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_DoorHole_Right_2_Wood
+    second: {fileID: 2100000, guid: e80d15f8399a80b448f644c35345bccd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_DoorHole_Right_Wood
+    second: {fileID: 2100000, guid: 2a49d826439a93846bf937fbc6481c37, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_Left_Metal
+    second: {fileID: 2100000, guid: 175da3826efbc514fac45607fd706e6d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_Left_Wood
+    second: {fileID: 2100000, guid: af57391c151251341b1b9ea3430e0b55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_Right_Metal
+    second: {fileID: 2100000, guid: f38ecb23ad5df74488725ad0618c1d2c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Door_Right_Wood
+    second: {fileID: 2100000, guid: 898ed1f98f40b7e4bb780e4e4cfad882, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fire
+    second: {fileID: 2100000, guid: bf7f2e2aa20b94a40b4840563196f4e0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor_Wood
+    second: {fileID: 2100000, guid: 785c3929712c7974cb45608707cc2aa2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SausagesShelf_Base
+    second: {fileID: 2100000, guid: 94d2f43246c1f8048a53173a70b9e5b4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sausages_Base
+    second: {fileID: 2100000, guid: 3c1c3fbcff1adb849bdd9f4fea70d033, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shelf_Metal
+    second: {fileID: 2100000, guid: 390cfec4d539735459e6630f2929e8fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shelf_Wood
+    second: {fileID: 2100000, guid: 99288fefb46a9fe469e439fd9093cb23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shiled_Base
+    second: {fileID: 2100000, guid: 52763319dde87d94cbc806efeb757306, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Shiled_Metal
+    second: {fileID: 2100000, guid: 64ce63ae861b5bb42ba8f65b84184d58, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sword_Blade
+    second: {fileID: 2100000, guid: 9db2ef2f10c4e8244b46aae19ec2deed, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sword_Handle
+    second: {fileID: 2100000, guid: 7f61181f6fe54814aa8e59ae10b04815, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Table_Small_Metal
+    second: {fileID: 2100000, guid: 2fee25f1e4d2eed4a9b0b60d89d07145, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Table_Small_Wood
+    second: {fileID: 2100000, guid: 3d459c90d8e61c740b4dbd1b13c2a238, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TavernKeeper_Base
+    second: {fileID: 2100000, guid: 825f000de10b15c40a2206da017269aa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TavernKeeper_Eyes
+    second: {fileID: 2100000, guid: 2610793c120f66d4ca73052d49b0ccea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TavernKeeper_Metal
+    second: {fileID: 2100000, guid: 6cb9f06af9923e846b09518ba385fabc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tray_Big_Metal
+    second: {fileID: 2100000, guid: b68842a1c82b6964abb288a342ca6299, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tray_Big_Wood
+    second: {fileID: 2100000, guid: 8db9064930048514582bd7a0f7ab6d62, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tray_Small_Wood
+    second: {fileID: 2100000, guid: 6e4af0fddb62b83438ec087fa2bb8dd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Wall_Base
+    second: {fileID: 2100000, guid: 34f4a975232a31b40a1a2db1e9adcc5c, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 1
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0a3d213963243c45aae7343938395fc, type: 3}
+  m_Name: ClientsFactory_Data
+  m_EditorClassIdentifier: 
+  _headsData: {fileID: 11400000, guid: 83732f0df45c2e349a264141381c4a57, type: 2}
+  _bodiesData: {fileID: 11400000, guid: a4530458000440e4a83769eae9b2c8ce, type: 2}
+  _bootsData: {fileID: 11400000, guid: c9dc63659713f4a4192d6bb40d169211, type: 2}
+  _eyesData: {fileID: 11400000, guid: b23768e4b6a08634bb8bcea5993ab8aa, type: 2}
+  _clientPrefab: {fileID: 2891586599784155314, guid: 024a5e350d39c124a8cadd322d0e5f16,
+    type: 3}
