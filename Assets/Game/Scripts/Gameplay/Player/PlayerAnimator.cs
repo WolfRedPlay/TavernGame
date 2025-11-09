@@ -15,10 +15,9 @@ namespace Gameplay.Player
         [SerializeField] private MultiRotationConstraint _rotationRH;
 
 
-        private const float MinBlinkTime = 2.5f;
-        private const float MaxBlinkTime = 4.5f;
+        private Blinking _blinking;
+
         private const string Walking = "Walking";
-        private const string Blink = "Blink";
 
 
         public void Initialize()
@@ -32,17 +31,7 @@ namespace Gameplay.Player
                 return;
             }
 
-            StartCoroutine(BlinkCoroutine(Random.Range(MinBlinkTime, MaxBlinkTime)));
-        }
-
-
-        private IEnumerator BlinkCoroutine(float waitTime)
-        {
-            yield return new WaitForSeconds(waitTime);
-
-            _animator.SetTrigger(Blink);
-
-            StartCoroutine(BlinkCoroutine(Random.Range(MinBlinkTime, MaxBlinkTime)));
+            _blinking = new Blinking(this, _animator);
         }
 
 

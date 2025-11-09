@@ -33,6 +33,8 @@ namespace Gameplay.Clients
         private bool _handOnSeat = false;
         private bool _handOnSeatBack = false;
 
+        private Blinking _blinking;
+
 
         public event UnityAction OnSitDown;
         public event UnityAction OnStandUp;
@@ -63,18 +65,10 @@ namespace Gameplay.Clients
 
             _animator = GetComponent<Animator>();
             _assignedSeat = assignedSeat;
-            StartCoroutine(BlinkCoroutine(Random.Range(MinBlinkTime, MaxBlinkTime)));
+
+            _blinking = new Blinking(this, _animator);
+
             StartHeadRotation();
-        }
-
-
-        private IEnumerator BlinkCoroutine(float waitTime)
-        {
-            yield return new WaitForSeconds(waitTime);
-
-            _animator.SetTrigger(Blink);
-
-            StartCoroutine(BlinkCoroutine(Random.Range(MinBlinkTime, MaxBlinkTime)));
         }
 
 

@@ -6538,7 +6538,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 25
-        value: {x: 3.023, y: 5.331, z: 3.341}
+        value: {x: 3.023, y: -4.397, z: 3.341}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -6547,7 +6547,7 @@ AnimationClip:
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
         time: 25.5
-        value: {x: 3.023, y: 5.331, z: 3.341}
+        value: {x: 3.023, y: -4.397, z: 3.341}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
@@ -26596,7 +26596,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 25
-        value: 5.331
+        value: -4.397
         inSlope: 0
         outSlope: 0
         tangentMode: 1
@@ -26605,7 +26605,7 @@ AnimationClip:
         outWeight: 0.33333334
       - serializedVersion: 3
         time: 25.5
-        value: 5.331
+        value: -4.397
         inSlope: 0
         outSlope: 0
         tangentMode: 1
@@ -30310,7 +30310,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: metarig/Root/Torso/spine.001/spine.002/Head
+    path: Rig 1/LeftHand/Target
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -30322,7 +30322,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: metarig/Root/Torso/spine.001/spine.002/Head
+    path: Rig 1/LeftHand/Target
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -30334,7 +30334,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: metarig/Root/Torso/spine.001/spine.002/Head
+    path: Rig 1/LeftHand/Target
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -31174,7 +31174,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Rig 1/LeftHand/Target
+    path: metarig/Root/Torso/spine.001/spine.002/Head
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -31186,7 +31186,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Rig 1/LeftHand/Target
+    path: metarig/Root/Torso/spine.001/spine.002/Head
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -31198,7 +31198,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Rig 1/LeftHand/Target
+    path: metarig/Root/Torso/spine.001/spine.002/Head
     classID: 4
     script: {fileID: 0}
     flags: 0
@@ -32768,7 +32768,7 @@ MonoBehaviour:
   m_Version: 3
   m_AnimClip: {fileID: 0}
   m_Locked: 0
-  m_Muted: 0
+  m_Muted: 1
   m_CustomPlayableFullTypename: 
   m_Curves: {fileID: 0}
   m_Parent: {fileID: 11400000}
