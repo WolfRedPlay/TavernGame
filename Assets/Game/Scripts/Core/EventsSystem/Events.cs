@@ -38,12 +38,12 @@ namespace Core.Events
     public class CameraBlendingFinishedEvent : GameEvent { }
 
 
-    public class OnFillingButtonDownEvent: GameEvent { }
+    public class OnFillingButtonDownEvent : GameEvent { }
 
-    public class OnFillingButtonUpEvent: GameEvent { }
+    public class OnFillingButtonUpEvent : GameEvent { }
 
 
-    public class AddItemToTrayEvent: GameEvent 
+    public class AddItemToTrayEvent : GameEvent
     {
         private Item_Data _itemToAdd;
         private bool _isPerfect;
@@ -63,7 +63,7 @@ namespace Core.Events
     public class FreeTableEvent : GameEvent { }
 
 
-    public class AddOrderUIEvent: GameEvent 
+    public class AddOrderUIEvent : GameEvent
     {
         private uint _tableId;
         private Transform _tableTransform;
@@ -82,7 +82,7 @@ namespace Core.Events
         }
     }
 
-    public class RemoveOrderUIEvent: GameEvent 
+    public class RemoveOrderUIEvent : GameEvent
     {
         private uint _tableId;
 
@@ -96,5 +96,14 @@ namespace Core.Events
     }
 
 
+    public class ShowErrorMessageEvent : GameEvent
+    {
+        private string _message;
+        public string Message => _message;
 
+        public ShowErrorMessageEvent(string message)
+        {
+            _message = message;
+        }
+    }
 }

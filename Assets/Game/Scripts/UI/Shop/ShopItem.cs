@@ -15,7 +15,6 @@ namespace UI.Shop
         [Header("Buttons")]
         [SerializeField] private Button _increaseButton;
         [SerializeField] private Button _decreaseButton;
-        [SerializeField] private Button _buyButton;
 
 
         private UI_Shop _shopUI;
@@ -25,6 +24,7 @@ namespace UI.Shop
 
         
         public Item_Data Data => _data;
+        public int Amount => _amount;
 
 
         public void Initialize(Item_Data itemData, int maxAmount, UI_Shop shopUI)
@@ -43,7 +43,6 @@ namespace UI.Shop
 
             _increaseButton.onClick.AddListener(IncreaseAmount);
             _decreaseButton.onClick.AddListener(DecreaseAmount);
-            _buyButton.onClick.AddListener(BuyItem);
         }
         
 
@@ -77,13 +76,6 @@ namespace UI.Shop
 
             UpdateAmount(_amount - 1);
         }
-
-
-        public void BuyItem()
-        {
-            _shopUI.TryBuyItem(_data, _amount);
-        }
-
 
         public void OnPurchaseConfirmed()
         {

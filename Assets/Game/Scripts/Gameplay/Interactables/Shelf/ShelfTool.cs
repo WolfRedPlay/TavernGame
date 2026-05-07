@@ -66,7 +66,11 @@ namespace Gameplay.Interactables.Shelf
 
         public void TryToTakeSausages(Sausages_Shelf sausagesToRemove)
         {
-            if (!_trayManager.HasSpace) return;
+            if (!_trayManager.HasSpace)
+            {
+                EventManager.Broadcast(new ShowErrorMessageEvent("Tray is full! Cannot take more food."));
+                return;
+            }
 
             _sausagesOnShelf.Remove(sausagesToRemove);
             Destroy(sausagesToRemove.gameObject);
@@ -86,7 +90,11 @@ namespace Gameplay.Interactables.Shelf
 
         public void TryToTakeCheese()
         {
-            if (!_trayManager.HasSpace) return;
+            if (!_trayManager.HasSpace) 
+            {
+                EventManager.Broadcast(new ShowErrorMessageEvent("Tray is full! Cannot take more food."));
+                return; 
+            }
 
             Cheese_Shelf cheeseToRemove = _cheeseOnShelf[_cheeseOnShelf.Count - 1];
             

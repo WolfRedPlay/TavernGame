@@ -26,7 +26,13 @@ namespace Gameplay.Interactables.BeerBarrel
 
         public override void Interact(Interactor interactor)
         {
-            if (!_trayManager.HasSpace) return;
+            if (!_trayManager.HasSpace) 
+            { 
+                EventManager.Broadcast(new ShowErrorMessageEvent("Tray is full! Cannot take more mugs."));
+                return;
+            }
+
+            
 
             base.Interact(interactor);
         }

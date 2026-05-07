@@ -20,6 +20,7 @@ namespace Gameplay.Interactables.BeerBarrel
 
         public Beer_Data BeerData => _toolItemsData[0] as Beer_Data;
         public ObservableValue<float> FillValue => _fillValue;
+        public int BeerAmount => _beerAmount;
 
 
         private void Update()
@@ -47,7 +48,11 @@ namespace Gameplay.Interactables.BeerBarrel
 
         private void OnFillingButtonDown(OnFillingButtonDownEvent evt)
         {
-            if (_beerAmount == 0) return;
+            if (_beerAmount == 0)
+            {
+                EventManager.Broadcast(new ShowErrorMessageEvent("The barrel is empty! You should buy more beer!!!"));
+                return;
+            }
             StartFilling();
         }
         

@@ -2,6 +2,7 @@ using Core.Shared;
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace UI.Shop
 {
@@ -9,6 +10,7 @@ namespace UI.Shop
     {
         [SerializeField] RectTransform _itemsListContentTransform;
         [SerializeField] ShopItem _itemPrefab;
+        [SerializeField] Button _buyButton;
 
 
         List<ShopItem> _activeShopItems = new List<ShopItem>();
@@ -27,8 +29,17 @@ namespace UI.Shop
             }
 
             _rootObject.SetActive(true);
+            _buyButton.onClick.AddListener(OnBuyButtonPressed);
         }
 
+        private void OnBuyButtonPressed()
+        {
+            foreach (ShopItem item in _activeShopItems)
+            {
+                if (item.Amount > 0)
+                    TryBuyItem(item.Data, item.Amount);
+            }
+        }
 
         public override void CloseUI()
         {

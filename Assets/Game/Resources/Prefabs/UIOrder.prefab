@@ -60,15 +60,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: -870222288, guid: 4bd367250dda1424d8f55e968e0a9f04, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -90,12 +90,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Padding:
-    m_Left: 0
-    m_Right: 0
-    m_Top: 0
-    m_Bottom: 0
-  m_ChildAlignment: 1
-  m_Spacing: 0
+    m_Left: 2
+    m_Right: 2
+    m_Top: 8
+    m_Bottom: 8
+  m_ChildAlignment: 4
+  m_Spacing: 2
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -129,6 +129,7 @@ GameObject:
   - component: {fileID: 3063242790276298403}
   - component: {fileID: 8375415226642871141}
   - component: {fileID: 3168924390028824732}
+  - component: {fileID: 5659952614423053224}
   m_Layer: 5
   m_Name: UIOrder
   m_TagString: Untagged
@@ -201,7 +202,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!114 &3168924390028824732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -217,3 +218,15 @@ MonoBehaviour:
   _orderedItemsParent: {fileID: 2733242250087800036}
   _orderedItemPrefab: {fileID: 2067696191130303388, guid: 6542957e592558c4fbeebd5d8d4e4dd9,
     type: 3}
+--- !u!225 &5659952614423053224
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7619013639652711773}
+  m_Enabled: 1
+  m_Alpha: 0.85
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
